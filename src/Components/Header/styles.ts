@@ -29,7 +29,9 @@ export const SearchBar = styled.div`
   max-width: 1120px;
 
   margin: 0 auto; 
-  padding: 2rem 6rem;
+  padding: 3rem 6rem 0.25rem 6rem;
+
+  cursor: pointer;
 
   input {
     position: relative;
@@ -44,6 +46,8 @@ export const SearchBar = styled.div`
     border-radius: 0.25rem;
     border: none;
 
+    font-size: 1.15rem;
+    
     &::placeholder {
       color: #f7f7f7;
       opacity: 0.5;
@@ -53,6 +57,6 @@ export const SearchBar = styled.div`
   img {
     position: relative;
     left: 1rem;
-    top: -2.25rem;
+    top: -2.5rem;
   }
 `
